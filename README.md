@@ -2,7 +2,7 @@
 
 - Silahkan anda clone/download project ini
 - Buka terminal, masuk ke direktori/folder project yang sudah anda clone
-- Jalankan perintah berikut (agar setiap perintah docker yang dijalankan nanti tidak perlu mengetik 'sudo', serta memberikan kewenangan agar user biasa dapat bertindak seperti super user).
+- Jalankan perintah berikut (agar setiap perintah docker yang dijalankan nanti tidak perlu mengetik 'sudo', serta memberikan kewenangan agar user biasa dapat bertindak seperti super user)
 ```
 sudo su
 ```
@@ -36,7 +36,7 @@ docker network ls
 ```
 - Untuk melihat detail networknya, jalankan perintah:
 ```
-docker inspect nodejs-net
+docker inspect nodejs-net .
 ```
 
 ### Membuat sekaligus menjalankan container di Docker
