@@ -36,7 +36,7 @@ docker network ls
 ```
 - Untuk melihat detail networknya, jalankan perintah:
 ```
-docker inspect nodejs
+docker inspect nodejs-net
 ```
 
 ### Membuat sekaligus menjalankan container di Docker
@@ -81,4 +81,4 @@ node server.js
 ```
 - Jika tidak ada error saat menjalankan program, lakukan CRUD menggunakan aplikasi Postman.
 
-#### Note: Pastikan anda sudah menginstall MariaDB & Docker di PC/Laptop anda. User database yang saya gunakan disini adalah 'root', dengan password 'root'.
+#### Note: Pastikan anda sudah menginstall MariaDB & Docker di PC/Laptop anda. User database yang saya gunakan disini adalah 'root', dengan password 'root'. Sekian.
