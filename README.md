@@ -15,7 +15,7 @@ docker pull mariadb
 ### Build project nodejs di Docker
 - Untuk build project tersebut, jalankan perintah berikut:
 ```
-docker build -t crudapi_nodejs 
+docker build -t crudapi_nodejs .
 ```
 - Lalu cek apakah images crudapi_nodejs sudah ada/belum, dengan perintah:
 ```
@@ -36,7 +36,7 @@ docker network ls
 ```
 - Untuk melihat detail networknya, jalankan perintah:
 ```
-docker inspect nodejs-net .
+docker inspect nodejs-net
 ```
 
 ### Membuat sekaligus menjalankan container di Docker
@@ -59,7 +59,7 @@ docker ps
 ```
 docker exec -i crudapi_nodejs mysql -h172.20.0.22 -uroot -proot mysql < db_crud_nodejs.sql
 ```
-(Ket: 'crudapi_nodejs' = nama container yang tadi dibuat, '-h172.20.0.22' = hostnya, '-uroot' = user database, '-proot' = password dari user database, 'db_crud_nodejs.sql' = file sql yang akan diimport ke docker)
+(Ket: 'crudapi_nodejs' = nama container yang tadi dibuat, '-h172.20.0.22' = hostnya, '-uroot' = user database (root), '-proot' = password dari user root, 'db_crud_nodejs.sql' = file sql yang akan diimport ke docker)
 - Untuk mengecek apakah database sudah diimport ke docker/belum, jalankan perintah:
 ```
 mysql -h 172.20.0.22 -u root -p
