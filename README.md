@@ -79,6 +79,6 @@ atau
 ```
 node server.js
 ```
-- Jika tidak ada error saat menjalankan program, lakukan CRUD di postman.
+- Jika tidak ada error saat menjalankan program, lakukan CRUD menggunakan aplikasi Postman.
 
-#### Note: Pastikan anda sudah menginstall MariaDB di PC/Laptop anda. User database yang saya gunakan disini adalah 'root', dengan password 'root'.
+#### Note: Pastikan anda sudah menginstall MariaDB & Docker di PC/Laptop anda. User database yang saya gunakan disini adalah 'root', dengan password 'root'.
