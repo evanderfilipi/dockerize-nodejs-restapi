@@ -1,4 +1,4 @@
-# Dockerize nodejs REST API dengan mariadb (Ubuntu)
+# Dockerize Nodejs REST API dengan MariaDB (Ubuntu)
 
 - Silahkan anda clone/download project ini
 - Buka terminal, masuk ke direktori/folder project yang sudah anda clone
