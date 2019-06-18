@@ -45,7 +45,7 @@ docker inspect nodejs
 docker run --net nodejs-net --ip 172.20.0.22 --name crudapi_nodejs -e MYSQL_ROOT_PASSWORD="root" -d mariadb:latest
 ```
 (Ket: 'nodejs-net' = nama network yang dibuat, '172.18.0.22' = ip address berdasarkan subnet di nodejs-net, 'crudapi_nodejs' = nama container, 'root' = password root mysql saya, 'mariadb:latest' = nama image dan tagnya)
--Untuk melihat apakah container sudah ada/belum, jalankan perintah:
+- Untuk melihat apakah container sudah ada/belum, jalankan perintah:
 ```
 docker ps -a
 ```
