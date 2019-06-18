@@ -2,7 +2,7 @@
 
 - Silahkan anda clone/download project ini
 - Buka terminal, masuk ke direktori/folder project yang sudah anda clone
-- Jalankan perintah berikut (agar setiap perintah docker yang dijalankan nanti tidak perlu mengetik 'sudo')
+- Jalankan perintah berikut (agar setiap perintah docker yang dijalankan nanti tidak perlu mengetik 'sudo', serta memberikan kewenangan agar user biasa dapat bertindak seperti super user).
 ```
 sudo su
 ```
@@ -67,7 +67,7 @@ mysql -h 172.20.0.22 -u root -p
 - Setelah masuk ke mysql/mariadb di terminal, cek apakah database serta isi tabel dari db tersebut ada/tidak (menggunakan perintah sql).
 
 ### Jalankan program
-- Cek apakah anda berhasil connect ke database di docker dengan menjalankan perintah:
+- Untuk mengecek apakah anda berhasil connect ke database di docker, jalankan perintah:
 ```
 node connect.js
 ```
